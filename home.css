@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(167deg,#7c5b8d,#f8c2fe,#dcc7fe);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand{
+    width: 100px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 1cm !important;
+}
+
+.nav-item{
+    padding-right: 10% !important;
+}
