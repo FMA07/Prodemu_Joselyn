@@ -6,17 +6,28 @@ body{
 }
 
 .navbar{
-    background-color: black;
+    background-color: #4f1d6e;
+}
+
+.nav-item{
+    padding-left: 40px !important;
+    padding-right: 20px !important;
 }
 
 .navbar-brand{
     width: 100px;
 }
+
 .nav-link{
     color: white !important;
-    font-size: 1cm !important;
+    font-size: 30px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
-.nav-item{
-    padding-right: 10% !important;
+.mensaje{
+    margin-top: 15%;
+    text-align: center;
+    font-family: 'Allura';
+    color: white;
+    font-size: 550%;
 }
