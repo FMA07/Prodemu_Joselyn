@@ -1,3 +1,7 @@
+.a{
+    color: inherit;
+}
+
 body{
     background-image: linear-gradient(167deg,#7c5b8d,#f8c2fe,#dcc7fe);
     height: 100%;
@@ -21,8 +25,8 @@ body{
 }
 
 .carousel-item img{
-    max-width: 40%;;
-    max-height: 50%;
+    max-width: 40%;
+    height: 300px;
     margin: auto;
 }
 
