@@ -10,37 +10,7 @@
 </head>
 <body>
     <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="home.html">
-                <img src="Img/logoredondo.png" alt="JDBoutique" height="100%" width="100%">
-            </a>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-O" >
-                    <li class="nav-item">
-                        <a class="nav-link" href="home.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pedidos.html">Pedidos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="donaciones.html">Donaciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Más información</a>
-                    </li>
-                </ul>
-                <div class="d-flex">
-                    <a href="">
-                        <img src="Img/carrito_compras.png" alt="" height="100px" width="100px" style="padding-right: 20px;">
-                    </a>
-                    <a href="index.html">
-                        <img src="Img/login.png" alt="" height="100px" width="100px">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <div id="navbar"></div>
 
     <div class="container-fluid" style="margin-top: 15%;">
         <div class="row">
@@ -66,7 +36,7 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-end mt-3">
-                    <button type="submit" class="btn btn-primary boton">Pedir</button>
+                    <button type="submit" class="btn btn-primary boton" id="botonPedir" style="width: 25% !important ;">Pedir</button>
                 </div>
             </div>
             <div class="col-lg-4"> <!--Mitad derecha de la página-->
@@ -100,6 +70,7 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/funcionalidad.js" ></script>
 </html>
