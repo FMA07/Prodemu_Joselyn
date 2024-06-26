@@ -27,7 +27,7 @@ body{
     background-color: #4f1d6e;
     padding-top: 2%;
     padding-bottom: 2%;
-    border-radius: 5%;
+    border-radius: 10%;
     margin-bottom: 5%;
 }
 
@@ -35,6 +35,7 @@ body{
     max-width: 40%;
     height: 300px;
     margin: auto;
+    border-radius: 5%;
 }
 
 .carousel-inner img{

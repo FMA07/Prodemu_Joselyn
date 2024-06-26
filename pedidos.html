@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedidos</title>
+    <link rel="icon" type="img" href="Img/logoredondo.png">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
@@ -42,6 +43,7 @@
             <div class="col-lg-4"> <!--Mitad derecha de la página-->
                 <div class="order-background">
                     <div class="row">
+                        <h3 class="mensaje" style="margin-top: 2%;">Selecciona el modelo que quieres</h3>
                         <div class="col-lg-6" style="padding-top: 5%; padding-bottom: 5%;"> <!--Imágenes en columna izquierda-->
                             <div class="d-flex justify-content-center" style="margin-bottom: 5%;">
                                 <img class="img-fluid" src="Img/Estuches-de-tela.webp" alt="" height="80%" width="80%">
@@ -70,7 +72,20 @@
         </div>
     </div>
 
+    <div id="carruselPedidos" class="carousel slide" data-bs-ride="carousel" style="margin-top: 5%; margin-bottom: -5%; ">
+        <div class="carousel-inner carousel-background">
+            <div class="carousel-item active">
+                <div class="text-center">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="barraFooter"></div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="js/funcionalidad.js" ></script>
+</body>
 </html>
