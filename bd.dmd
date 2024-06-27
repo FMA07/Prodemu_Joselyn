@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bd" id="647B7836-D142-3332-5F26-281D18227D51" version="3.5">
+<createdBy>pabli</createdBy>
+<createdTime>2024-06-21 00:11:29 UTC</createdTime>
+<ownerDesignName>bd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>647B7836-D142-3332-5F26-281D18227D51</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DCA3094D-EE23-341D-E806-23A944749B85">
+<designStoragePath>D:\Nuevo Documento de texto</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4EB68954-C13E-95DB-401F-E0DD91E978D5">
+<designStoragePath>D:\Nuevo Documento de texto</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="406CFCD3-21A5-8829-E5BC-7597AA75767D">
+<designStoragePath>D:\Nuevo Documento de texto</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
